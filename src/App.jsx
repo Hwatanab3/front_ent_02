@@ -34,7 +34,7 @@ function App() {
   const [userRan, getUserRan] = useCrud(urlRan)
 
   useEffect(() => {
-    const path = "users"
+    const path = "/api"
     getUserRan(path)
   }, [users])
 
